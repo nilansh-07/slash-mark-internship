@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="sec">
+        <header>
+            <a href="#"><img src="https://i.ibb.co/Bj18mPf/logo.png" alt="logo" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle()"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>I like</span></h2>
+                <p>Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally created and developed in 1893 by
+                    Caleb Bradham and introduced as Brad's Drink, it was renamed as Pepsi-Cola in 1898, and then
+                    shortened to Pepsi in 1961.</p>
+                <a href="#">view All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="https://i.ibb.co/0YcWmxR/pepsi001.png" alt="pepsi01" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="https://i.ibb.co/0YcWmxR/pepsi001.png" alt="pepsi1"
+                    onclick="imgSlider('https://i.ibb.co/0YcWmxR/pepsi001.png');changeBgColor('var(--blue-color)')">
+            </li>
+            <li><img src="https://i.ibb.co/PDr6mk3/pepsi002.png" alt="pepsi2"
+                    onclick="imgSlider('https://i.ibb.co/PDr6mk3/pepsi002.png');changeBgColor('var(--red-color)')"></li>
+            <li><img src="https://i.ibb.co/pbKQQx6/pepsi003.png" alt="pepsi3"
+                    onclick="imgSlider('https://i.ibb.co/pbKQQx6/pepsi003.png');changeBgColor('var(--black-color)')">
+            </li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="https://i.ibb.co/0G8RgHq/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Y888NNy/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/R7L083T/instagram.png" alt="instagram"></a></li>
+        </ul>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
